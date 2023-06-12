@@ -1,0 +1,173 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "multimodales spiel",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hallo",
+            "wie geht\u0027s dir",
+            "sag hallo welt",
+            "sag hallo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "StartGameIntent",
+          "slots": [],
+          "samples": [
+            "Lass uns ein neues Spiel spielen",
+            "Neues Spiel",
+            "Starte ein neues Spiel"
+          ]
+        },
+        {
+          "name": "PlaceMarkIntent",
+          "slots": [
+            {
+              "name": "Position",
+              "type": "PositionType"
+            }
+          ],
+          "samples": [
+            "setze meinen Zug {Position}",
+            "setze meinen Zug auf Position {Position}",
+            "platziere meinen Zug auf Position {Position}",
+            "setze an {Position}",
+            "{Position}"
+          ]
+        },
+        {
+          "name": "ShowBoardIntent",
+          "slots": [],
+          "samples": [
+            "Zeige mir das aktuelle Spielfeld",
+            "Wie sieht das Spielfeld aus",
+            "Kannst du mir das Spielfeld anzeigen",
+            "Gib mir eine Übersicht über das Spielbrett",
+            "Wie steht es gerade im Spiel"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "9"
+              }
+            },
+            {
+              "name": {
+                "value": "8"
+              }
+            },
+            {
+              "name": {
+                "value": "7"
+              }
+            },
+            {
+              "name": {
+                "value": "6"
+              }
+            },
+            {
+              "name": {
+                "value": "5"
+              }
+            },
+            {
+              "name": {
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "value": "1"
+              }
+            },
+            {
+              "name": {
+                "value": "unten links"
+              }
+            },
+            {
+              "name": {
+                "value": "unten mitte"
+              }
+            },
+            {
+              "name": {
+                "value": "unten rechts"
+              }
+            },
+            {
+              "name": {
+                "value": "mitte links"
+              }
+            },
+            {
+              "name": {
+                "value": "mitte"
+              }
+            },
+            {
+              "name": {
+                "value": "mitte rechts"
+              }
+            },
+            {
+              "name": {
+                "value": "oben links"
+              }
+            },
+            {
+              "name": {
+                "value": "oben mitte"
+              }
+            },
+            {
+              "name": {
+                "value": "oben rechts"
+              }
+            }
+          ],
+          "name": "PositionType"
+        }
+      ]
+    }
+  },
+  "version": "7"
+}
